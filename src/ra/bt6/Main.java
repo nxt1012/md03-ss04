@@ -15,7 +15,7 @@ public class Main {
         printArray(arr);
         System.out.print("Vui lòng nhập vị trí cột muốn tính tổng: ");
         int colIndex = sc.nextInt();
-        System.out.println("Tổng các giá trị trong cột cần tính là: " + colSum(arr, colIndex-1));
+        System.out.println("Tổng các giá trị trong cột cần tính là: " + colSum(arr, colIndex));
     }
     public static int[][] createTwoDimensionArray(int row, int col) {
         Scanner sc = new Scanner(System.in);
